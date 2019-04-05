@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NYCCalculator.h"
+#import "NYCDigitAccumulator.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NYCCalculatorViewController : UIViewController
+
+@property (nonatomic) NYCCalculator *calculator;
+@property (nonatomic) NYCDigitAccumulator *digitAccumulator;
 
 @end
 
