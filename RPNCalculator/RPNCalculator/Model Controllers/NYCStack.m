@@ -26,7 +26,8 @@
 }
 
 - (void)push:(id)object {
-    [values addObject:object];
+    [values addObject: object];
+    
 }
 
 - (id)pop {

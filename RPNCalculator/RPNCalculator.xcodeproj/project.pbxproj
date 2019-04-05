@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7728E02B2256C86B00B8742B /* NYCDigitAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728E02A2256C86B00B8742B /* NYCDigitAccumulator.m */; };
 		77471D182256909B00F45194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77471D172256909B00F45194 /* AppDelegate.m */; };
 		77471D202256909B00F45194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77471D1F2256909B00F45194 /* Assets.xcassets */; };
 		77471D232256909B00F45194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77471D212256909B00F45194 /* LaunchScreen.storyboard */; };
@@ -14,9 +15,12 @@
 		77471D2E2256928C00F45194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77471D2D2256928C00F45194 /* Main.storyboard */; };
 		77471D31225692B700F45194 /* NYCCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77471D30225692B700F45194 /* NYCCalculatorViewController.m */; };
 		77471D342256957F00F45194 /* NYCStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 77471D332256957E00F45194 /* NYCStack.m */; };
+		77471D3822569C0100F45194 /* NYCCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77471D3722569C0100F45194 /* NYCCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7728E0292256C86B00B8742B /* NYCDigitAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCDigitAccumulator.h; sourceTree = "<group>"; };
+		7728E02A2256C86B00B8742B /* NYCDigitAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCDigitAccumulator.m; sourceTree = "<group>"; };
 		77471D132256909B00F45194 /* RPNCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPNCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77471D162256909B00F45194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77471D172256909B00F45194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,8 @@
 		77471D30225692B700F45194 /* NYCCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCCalculatorViewController.m; sourceTree = "<group>"; };
 		77471D322256957E00F45194 /* NYCStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCStack.h; sourceTree = "<group>"; };
 		77471D332256957E00F45194 /* NYCStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCStack.m; sourceTree = "<group>"; };
+		77471D3622569C0100F45194 /* NYCCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCCalculator.h; sourceTree = "<group>"; };
+		77471D3722569C0100F45194 /* NYCCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +75,7 @@
 				77471D2D2256928C00F45194 /* Main.storyboard */,
 				77471D252256909B00F45194 /* main.m */,
 				77471D352256958400F45194 /* View Controllers */,
-				77471D322256957E00F45194 /* NYCStack.h */,
-				77471D332256957E00F45194 /* NYCStack.m */,
+				77471D3922569C0900F45194 /* Model Controllers */,
 			);
 			path = RPNCalculator;
 			sourceTree = "<group>";
@@ -82,6 +87,19 @@
 				77471D30225692B700F45194 /* NYCCalculatorViewController.m */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		77471D3922569C0900F45194 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77471D322256957E00F45194 /* NYCStack.h */,
+				77471D332256957E00F45194 /* NYCStack.m */,
+				77471D3622569C0100F45194 /* NYCCalculator.h */,
+				77471D3722569C0100F45194 /* NYCCalculator.m */,
+				7728E0292256C86B00B8742B /* NYCDigitAccumulator.h */,
+				7728E02A2256C86B00B8742B /* NYCDigitAccumulator.m */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +175,10 @@
 			files = (
 				77471D262256909B00F45194 /* main.m in Sources */,
 				77471D342256957F00F45194 /* NYCStack.m in Sources */,
+				77471D3822569C0100F45194 /* NYCCalculator.m in Sources */,
 				77471D31225692B700F45194 /* NYCCalculatorViewController.m in Sources */,
 				77471D182256909B00F45194 /* AppDelegate.m in Sources */,
+				7728E02B2256C86B00B8742B /* NYCDigitAccumulator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
